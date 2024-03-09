@@ -1,0 +1,62 @@
+
+.why_main{
+    padding: 50px 0;
+    background-color:  #F3F7FA;
+}
+
+.why_hedar h5{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #3734A9;
+    font-size: 18px;
+    line-height: 30px;
+}
+.why_hedar h2{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 50px;
+    line-height: 69px;
+}
+.why_text{
+    border: 1px solid #ffff;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin:20px 0;
+    position: relative;
+}
+.why_text_dev{
+    margin-left: 80px;
+}
+.why_circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F7ECFD;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 21px;
+    left: 32px;
+}
+.why_text_dev h2{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #000000;
+    font-size: 24px;
+    line-height: 32px;
+}
+.why_text_dev p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #757095;
+    font-size: 18px;
+    line-height: 30px;
+}

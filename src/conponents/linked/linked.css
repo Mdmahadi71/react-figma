@@ -1,0 +1,180 @@
+
+
+
+.linked_main{
+    padding: 100px 0;
+}
+
+.link_text h5{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #3734A9;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.link_text h2{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 50px;
+    line-height: 50px;
+}
+.link_text p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #757095;
+    font-size: 18px;
+    line-height: 26px;
+}
+/* .link_text_btn a{
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3734A9 ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+} */
+.link_text_btn a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #3734A9;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    transition: .5s;
+    overflow: hidden;
+}
+.link_text_btn a:hover{
+    background-color: #3734A9;
+    color: #ffff;
+    box-shadow: 0 0 5px #3734A9
+                0 0 25px #3734A9
+                0 0 50px #3734A9
+                0 0 200px #3734A9;
+    -webkit-box-reflect : below 1px linear-gradient(transparent,#0005)          
+}
+
+.link_text_btn a samp{
+    position: absolute;
+    display: block;
+}
+.link_text_btn a samp:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg ,transparent,#03e9f4);
+    animation:animatel 1s infinite;
+}
+@keyframes animatel{
+    0% {
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+.link_text_btn a samp:nth-child(2){
+    top:-100%;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animatel2 1s infinite;
+    animation-delay: .25s;
+}
+@keyframes animatel2{
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 100%;
+    }
+}
+.link_text_btn a samp:nth-child(3){
+    bottom: 0;
+    right:  0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg ,transparent,#03e9f4);
+    animation:animatel3 1s infinite;
+    animation-delay:.5s ;
+}
+@keyframes animatel3{
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.link_text_btn a samp:nth-child(4){
+    bottom: 0%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animatel4 1s infinite;
+    animation-delay: .5s;
+}
+@keyframes animatel4{
+    0%{
+        bottom: 100%;
+    
+    }
+    100%{
+        bottom: -100%;
+    }
+}
+
+
+@media(max-width:575px){
+    .linked_main {
+        padding: 50px 0;
+    }
+    .link_text h2 {
+        font-size: 43px;
+        line-height: 48px;
+    }
+    .link_text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .link_img{
+        margin-top: 50px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .link_text h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .link_text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .link_img{
+        margin-top: 100px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .link_text h2 {
+        font-size: 41px;
+        line-height: 50px;
+    }
+    .link_img{
+        margin-top: 40px;
+    }
+}
